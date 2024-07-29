@@ -1,0 +1,49 @@
+.client-list, .product-list, .order-list {
+  margin-bottom: 20px;
+}
+
+.client-list button, .product-list button, .order-list button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.client-list table, .product-list table, .order-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-list table th, .product-list table th, .order-list table th,
+.client-list table td, .product-list table td, .order-list table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.client-form, .product-form, .order-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.client-form form, .product-form form, .order-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-form label, .product-form label, .order-form label {
+  margin-bottom: 10px;
+}
+
+.client-form input, .product-form input, .order-form input {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.client-form button, .product-form button, .order-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
